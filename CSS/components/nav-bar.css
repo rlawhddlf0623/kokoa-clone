@@ -1,0 +1,33 @@
+.nav{
+    background-color: #f9f9fa;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(87,86,86,0.3);
+    position: fixed;
+    width: 100%;   
+    bottom: 0px;
+}
+.nav__list{
+    display: flex;
+     justify-content: space-around;
+     position: relative;
+}
+.nav__notification{
+    position: absolute;
+    left: 188px;
+    bottom:10px;
+}
+
+
+.nav__ellipsis{
+    position: absolute;
+    right: 50px;
+    bottom:15px;
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+.find-nav__ellipsis{
+    top: 53px;
+    right: 20px;
+}

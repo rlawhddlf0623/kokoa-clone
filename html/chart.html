@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chart - KoKoa </title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    
+</head>
+<body>
+<!-- status-bar -->
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- Wifi icon -->
+
+              <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:17</span>
+        </div>
+        <div class="status-bar__column"> 
+            <span>80%</span>
+            <!-- bettery icon : 충전상태에 따라 보여주기  -->
+            <!-- <i class="fas fa-battery-empty"></i>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-battery-half"></i> -->
+            <i class="fas fa-battery-three-quarters"></i>
+            <!-- <i class="fas fa-battery-full"></i> -->
+
+            <!-- Charging -->
+              <i class="fas fa-bolt"></i>           
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header-title">Charts</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span> <i class="fas fa-cog fa-lg" ></i></span>
+            
+        </div>
+    </header>
+
+   
+
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
+                <div class="user-component__text">
+                    <h2 class="user-component__title">김종일</h2>
+                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
+                </div>
+            </div>
+            <div class="user-component__column chart-user-component__column">
+                <span>20:12</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
+                <div class="user-component__text">
+                    <h2 class="user-component__title">김종일</h2>
+                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
+                </div>
+            </div>
+            <div class="user-component__column chart-user-component__column">
+                <span>20:12</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
+                <div class="user-component__text">
+                    <h2 class="user-component__title">김종일</h2>
+                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
+                </div>
+            </div>
+            <div class="user-component__column chart-user-component__column">
+                <span>20:12</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+
+        
+      
+
+    </main>
+
+<!-- 검색엔진이 <nav>안이 ul의li안에 있는 link를 가져와서 검색결과로 보여준다.-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chart.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fas fa-comment fa-lg"></i>
+                    
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <span class="nav__ellipsis"></span> 
+                <!-- ellipsis -->
+                <a class="nav__link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+<!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/46839fc23c.js" crossorigin="anonymous"></script>
+</body>
+</html>

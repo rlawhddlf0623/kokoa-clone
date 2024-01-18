@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - KoKoa </title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    
+</head>
+<body>
+<!-- status-bar -->
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- Wifi icon -->
+
+              <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:17</span>
+        </div>
+        <div class="status-bar__column"> 
+            <span>80%</span>
+            <!-- bettery icon : 충전상태에 따라 보여주기  -->
+            <!-- <i class="fas fa-battery-empty"></i>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-battery-half"></i> -->
+            <i class="fas fa-battery-three-quarters"></i>
+            <!-- <i class="fas fa-battery-full"></i> -->
+
+            <!-- Charging -->
+              <i class="fas fa-bolt"></i>           
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header-title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+           
+            <span>
+                 <i class="fas fa-cog fa-lg" ></i>         
+                 <span class="nav__ellipsis find-nav__ellipsis"></span> 
+            </span>
+            
+        </div>
+    </header>
+
+   
+
+
+    <main>
+       <div class="main-screen">
+            <div class="find-icons">
+                <div class="find-icons__icon">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="far fa-address-book"></i>
+                    <span class="find-icons__icon-text">Add by Contacts</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="fas fa-fingerprint"></i>
+                    <span>Add by ID</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="far fa-envelope"></i>
+                    <span>Invite</span>
+                </div>
+            </div>
+
+            <div class="recommended-friends">
+                <div class="recommended-friends__title">Recommended Friends</div>
+                <span>You have to recommend friends.</span>
+            </div>
+
+
+
+
+       </div>
+
+        
+      
+
+    </main>
+
+<!-- 검색엔진이 <nav>안이 ul의li안에 있는 link를 가져와서 검색결과로 보여준다.-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chart.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-lg"></i>
+                    
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <span class="nav__ellipsis"></span> 
+                <!-- ellipsis -->
+                <a class="nav__link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+<!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/46839fc23c.js" crossorigin="anonymous"></script>
+</body>
+</html>

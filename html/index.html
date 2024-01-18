@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오톡 클론코딩</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    
+</head>
+<body>
+<!-- status-bar -->
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- Wifi icon -->
+
+              <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:17</span>
+        </div>
+        <div class="status-bar__column"> 
+            <span>80%</span>
+            <!-- bettery icon : 충전상태에 따라 보여주기  -->
+            <!-- <i class="fas fa-battery-empty"></i>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-battery-half"></i> -->
+            <i class="fas fa-battery-three-quarters"></i>
+            <!-- <i class="fas fa-battery-full"></i> -->
+
+            <!-- Charging -->
+              <i class="fas fa-bolt"></i>           
+        </div>
+    </div>
+
+<!-- header -->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Weclome to KoKoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokao Account,
+            Log in with your email or phone number
+        </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input autofocus  name="username" type="text" placeholder="Email or phone number">
+        <input  name="Password" type="text" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+
+        <a href="#">Find Kakao Account or Password </a>
+
+    </form>
+
+   
+
+
+
+
+
+<!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/46839fc23c.js" crossorigin="anonymous"></script>
+</body>
+</html>
