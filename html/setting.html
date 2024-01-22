@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chart - KoKoa </title>
+    <title>Setting - KoKoa </title>
     <link rel="stylesheet" href="../CSS/index.css">
     
 </head>
@@ -33,69 +33,59 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header-title">Charts</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span> <i class="fas fa-cog fa-lg" ></i></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
             
+                <i class="fas fa-chevron-left"></i>
+            </a>
         </div>
+        <div class="alt-header__column">
+            
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search"></i>
+        </div>
+        
     </header>
 
    
-
-
-    <main class="main-screen">
-        <a href="chat.html">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
-                <div class="user-component__text">
-                    <h2 class="user-component__title">김종일</h2>
-                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
-                </div>
+<main class="main-screen">
+    <ul class="settings-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span> 
             </div>
-            <div class="user-component__column chart-user-component__column">
-                <span>20:12</span>
-                <div class="badge">1</div>
+            <div class="settings__setting-column">
+               
             </div>
-        </div>
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
-                <div class="user-component__text">
-                    <h2 class="user-component__title">김종일</h2>
-                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
-                </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-flask"></i>
+                <span>Kokoa Lab</span> 
             </div>
-            <div class="user-component__column chart-user-component__column">
-                <span>20:12</span>
-                <div class="badge">1</div>
+            <div class="settings__setting-column">
+               
             </div>
-        </div>
-
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="../image/KakaoTalk_20240118_165845287_01.jpg" alt="">
-                <div class="user-component__text">
-                    <h2 class="user-component__title">김종일</h2>
-                    <h6 class="user-component__subtitle">Please check My kakao Account Info</h6>
-                </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-info-circle"></i>
+                <span>Version</span>
             </div>
-            <div class="user-component__column chart-user-component__column">
-                <span>20:12</span>
-                <div class="badge">1</div>
+            <div class="settings__setting-column">
+                Latest Version
             </div>
-        </div>
+           
+        </li>
+    </ul>
 
-        
-    </a>
+</main>
 
-    </main>
+   
 
 <!-- 검색엔진이 <nav>안이 ul의li안에 있는 link를 가져와서 검색결과로 보여준다.-->
     <nav class="nav">
@@ -108,7 +98,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chart.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-lg"></i>
+                    <i class="far fa-comment fa-lg"></i>
                     
                 </a>
             </li>
@@ -127,11 +117,11 @@
         </ul>
     </nav>
 
-
-
     <div id="no-mobile">
         <span>Your screen is big</span>
     </div>
+
+
 
 
 <!-- fontAwesome -->

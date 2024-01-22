@@ -1,21 +1,4 @@
-.find-icons{
-    display: flex;
-    justify-content: space-between;
-   
-    text-align: center;
-    padding-bottom: 30px;
-}
-.find-icons__icon{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    height: 60px;
-    width: 100px;
-}
-.find-icons__icon i{
-    font-size: 1.5rem;
-}
+
 .find-icons__icon-text{
     margin-top:13px;
 }
@@ -35,4 +18,106 @@
     text-align: center;
     color:var(--font-color);
     
+}
+
+
+.open-chat{
+    margin-top: 15px;
+}
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+.open-chat__header span{
+    opacity: 0.6;
+}
+
+/* open-post  */
+.open-post{
+    display: flex;
+    justify-content: space-between;
+}
+.open-post__title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.open-post__hashtags{
+    text-transform: uppercase;
+    color: var(--font-color);
+}
+.open-post__members{
+    display: flex;
+    align-items: center;
+}
+.open-post__members-count{
+    color: var(--font-color);
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+.open-post__members .divider{
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    margin: 0px 10px;
+    border-left: 1px solid var(--font-color);
+    /* background-color: var(--font-color); */
+}
+.open-post__members-status{
+    color:tomato;
+}
+
+.open-post__members img{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.open-post__photo{
+    color: white;
+    position: relative;
+}
+.open-post__photo> img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.open-post__heart-count{
+    display: inline;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 13px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+@keyframes headtBeat{
+    0%{
+        color: white;
+        transform: scale(1);
+    }
+    30%{
+        color: tomato;
+        transform: scale(1.2);
+    }
+    60%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    80%{
+        transfcolor: tomato;
+        orm: scale(1.2);
+    }
+    100%{   
+        color: white;
+        transform: scale(1);
+
+    }
+}
+
+.open-post__heart-count:hover i{
+    will-change: transform;
+    animation: headtBeat 1s linear infinite;
 }
